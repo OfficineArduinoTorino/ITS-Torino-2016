@@ -1,3 +1,2 @@
-# ITS 2015
-
-A quick sum up of the projects made from the students from the "Mobile App Design" from ITS of Torino in the 2014-15 course.   
+# ITS-Torino-2016
+A place for 2016 Physical Computing introduction to ITS students
