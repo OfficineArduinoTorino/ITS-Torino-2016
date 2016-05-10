@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "2016 Course Programme (Italian)"
+title:  "Lezione 2, introduzione Arduino Genuino"
 date: 2016-04-26 21:01:00
 description: introduzione ad Arduino/Genuino
 img:
