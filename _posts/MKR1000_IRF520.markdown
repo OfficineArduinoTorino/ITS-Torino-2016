@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Drive an IRF520 Mosfet with an Genuino MKR1000 (Italian)"
+date: 2016-05-18 13:01:00
+description: Come pilotare carichi alimentati a 12V con un Mosfet ed una Genuino MKR1000
+img:
+---
+
+
+
+#### Come pilotare carichi grandi con una MKR1000
+
+* Il [Fritzing](http://fritzing.org/home/)
+  ![alt text](../img/mkr1000-IRF520driver.png "mkr1000")
+
+#### Bill Of Materials
+
+* 1# N Mosfet(IRF520)
+* 1# NPN Transistor (2n7000, BS170)
+* 1# Resistor 10 Ohm
+* 1# Resistor 33 Ohm
+* 1# Resistor 1M Ohm
+* 1# diode 
