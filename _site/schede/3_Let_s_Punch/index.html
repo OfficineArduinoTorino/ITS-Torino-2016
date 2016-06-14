@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Let's Punch for Sherlock & IoT</title>
+    <meta name="description" content="una documentazione temporanea sul percorso di Physical Computing del corso ITS Mobile APP Design 2016
+">
+
+    <link rel="stylesheet" href="/ITS-Torino-2016/css/main.css">
+
+    <!-- <link rel="stylesheet" href="/ITS-Torino-2016/css/main.css" | prepend: site.baseurl }}"> -->
+    <link rel="canonical" href="/ITS-Torino-2016/schede/3_Let_s_Punch/">
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <nav class="site-nav">
+
+      <div class="trigger">
+        <!-- ITS Torino 2016 instead of blog -->
+        <a class="page-link" href="http://local.arduino.cc/torino"><img src="/ITS-Torino-2016/img/Logo_600x177.png" width="250" height="80" alt="" /></a>
+        
+        <div class="rightAlign">
+        <a class="page-link" href="/ITS-Torino-2016/">Home</a>
+
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/ITS-Torino-2016/schede/">Schede</a>
+          
+        
+        </div>
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Let's Punch for Sherlock & IoT</h1>
+    <p class="post-meta">June 14, 2016 — 12:47</p>
+  </header>
+  <article class="post-content">
+    
+    <iframe src="https://docs.google.com/presentation/d/1I_HqbeIkkM0IzyYXSrYuDQwzTVmJsympivM3NPsiQmg/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="800" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<h3 id="analytic-machine-and-punched-cards">Analytic Machine and Punched Cards</h3>
+
+<h4 id="members">MEMBERS</h4>
+
+<p>BREAN FEDERICO, CONTESSA GIULIA, NARESE FRANCESCO, SAVASTA MARCO</p>
+
+<h4 id="introduction">INTRODUCTION:</h4>
+
+<p>Sherlock Holmes &amp; the Internet of Things is a project of Digital Storytelling Lab by Columbia University that experiments new scenarios in narration shared through interaction with Virtual Reality and Internet of Things.
+The story is set in a Steampunk Turin in 1834 and it revolves around a secret society and a series of advanced machineries which have been occulted away from the rest of the humanity.
+These machines hide a very powerful secret within them…</p>
+
+<h4 id="objective">OBJECTIVE:</h4>
+
+<p>In collaboration with Sherlock Holmes &amp; the IoT, we decided to build an analytic machine to give a unique experience to the players. By inserting punched cards in a specific machine the teams will receive hints to use for solving the mystery.
+Each player will live a first person experience through immediate and immersive interactions with the game system aided by interactive and interconnected objects.</p>
+
+<h4 id="description">DESCRIPTION:</h4>
+
+<p>The analytic machine will read the punched cards. On the top of the box there’s a led that constantly blinks and represent an emergency situation which alarms the players to hurry and complete certain tasks to avoid negative repercussions on the main story.
+There are a total of 11 punched cards, 10 will trigger the thermal printer and activate 10 hints which will be printed for the players to use.
+The last one will be found by the players during the game and it’s needed to turn off the blinking led on the top of the machine and will give the final hint.</p>
+
+<h4 id="hardware">HARDWARE:</h4>
+
+<p>A wooden box compose the main structure of the machine which works with an Arduino MKR1000, inside 5 leds and photoresistors will “read” the inserted punched cards, a led on the top (which shows the status of the machine) and one on the front (for the inserted cards feedback), and finally the thermal printer.
+The punched cards are made of wood with 25 holes in a 5x5 pattern of which only the first row is useful for the readings signals.</p>
+
+<h4 id="software">SOFTWARE:</h4>
+
+<p>The MKR1000 inside the machine works with the Adafruit Thermal Printer libraries to implement the functions used to print the hints for each team playing.
+The software recognize the code of each card by receiving the light signals which go through the holes of the card itself.
+APPLICATIONS:</p>
+
+<h4 id="what-can-you-do-with-the-analytic-machine">What can you do with the analytic machine?</h4>
+
+<ul>
+  <li>Print informations reserved for each owner of a punched card.</li>
+  <li>Assign actions or tasks to do for each owner of a card</li>
+  <li>Educational purpose, to get kids a closer look to the world of IT</li>
+</ul>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+  	<p>This site has been generated with <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, it's based on the <a href="https://github.com/bogoli/-folio">-folio</a> theme and is hosted on <a href="https://github.com" target="_blank">Github</a>. Officine Arduino &#169; 2016</p>
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
