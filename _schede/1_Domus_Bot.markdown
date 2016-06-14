@@ -2,10 +2,10 @@
 layout: schede
 title: DomusBot
 description: Control the status of your home with your smartphone
-img:
+img: /img/domusbot.png
 ---
 
-<iframe src="https://docs.google.com/presentation/d/1rR92ojpLLrXuvdnftXga4MrEzMEllcMQl8Jj6vqTAtY/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/1rR92ojpLLrXuvdnftXga4MrEzMEllcMQl8Jj6vqTAtY/embed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 #### MEMBERS:
