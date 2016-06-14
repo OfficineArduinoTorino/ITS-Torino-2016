@@ -8,6 +8,10 @@ img:
 <iframe src="https://docs.google.com/presentation/d/1HpyiUU7PC_pmeX-ivsuw4FohNJWEZ8PZRLgVEsWMOuw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dPHgu14wa5s?rel=0" frameborder="0" allowfullscreen></iframe>
+
+All the Materials of the project (code, circuits and laser files) can be found [here](https://github.com/OfficineArduinoTorino/ITS-Torino-2016/tree/master/Knock%20Lock%20Box%20%20for%20Sherlock%20_%20IoT).
+
 #### MEMBERS:
 Elahe Salarzehi, Luca Scudeler, Matteo Lanzetti, Vanessa Libora
 

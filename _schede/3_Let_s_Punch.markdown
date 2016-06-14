@@ -7,8 +7,11 @@ img:
 
 <iframe src="https://docs.google.com/presentation/d/1I_HqbeIkkM0IzyYXSrYuDQwzTVmJsympivM3NPsiQmg/embed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zfg-zeJcIXU?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ### Analytic Machine and Punched Cards
+
+All the Materials of the project (code, circuits and laser files) can be found [here](https://github.com/OfficineArduinoTorino/ITS-Torino-2016/tree/master/Let's%20Punch%20for%20Sherlock%20_%20IoT).
 
 #### MEMBERS
 

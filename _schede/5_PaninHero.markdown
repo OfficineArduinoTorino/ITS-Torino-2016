@@ -7,6 +7,10 @@ img:
 
 <iframe src="https://docs.google.com/presentation/d/17b_7pQab46zeay-GV-mq1-CCyv-zHTj5BrWn9hPuViw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tWxCoMEcK7U?rel=0" frameborder="0" allowfullscreen></iframe>
+
+All the Materials of the project (code, circuits and laser files) can be found [here](https://github.com/OfficineArduinoTorino/ITS-Torino-2016/tree/master/Paninhero).
+
 #### MEMBERS:
 Barbero Giada, Quartero Roberto, Quatrale Andrea, Sacchetto Dario, Spano Costantino.
 

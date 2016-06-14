@@ -8,7 +8,11 @@ img:
 <iframe src="https://docs.google.com/presentation/d/1TKPp3Ydo8pAHRVkV2EAdUaBg65J1RMyN_OTEkfZQ9K4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aIOBzP_tBms?rel=0" frameborder="0" allowfullscreen></iframe>
+
 ### OpenPoll
+
+All the Materials of the project (code, circuits and laser files) can be found [here](https://github.com/OfficineArduinoTorino/ITS-Torino-2016/tree/master/OpenPoll).
 
 #### Members:
 
