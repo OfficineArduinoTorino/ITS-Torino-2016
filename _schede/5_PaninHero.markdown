@@ -2,11 +2,10 @@
 layout: schede
 title: PaninHero
 description: order a sandwich through a chat bot system
-img: 
+img:
 ---
 
-presentazione in fase di update
-
+<iframe src="https://docs.google.com/presentation/d/17b_7pQab46zeay-GV-mq1-CCyv-zHTj5BrWn9hPuViw/embed?start=false&loop=false&delayms=3000" frameborder="0" width="800" height="479" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 #### MEMBERS:
 Barbero Giada, Quartero Roberto, Quatrale Andrea, Sacchetto Dario, Spano Costantino.

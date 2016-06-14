@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>DomusBot</title>
+    <title>PaninHero</title>
     <meta name="description" content="una documentazione temporanea sul percorso di Physical Computing del corso ITS Mobile APP Design 2016
 ">
 
@@ -59,60 +59,66 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">DomusBot</h1>
-    <p class="post-meta">June 14, 2016 — 12:47</p>
+    <h1 class="post-title">PaninHero</h1>
+    <p class="post-meta">June 14, 2016 — 13:07</p>
   </header>
   <article class="post-content">
     
-    <iframe src="https://docs.google.com/presentation/d/1rR92ojpLLrXuvdnftXga4MrEzMEllcMQl8Jj6vqTAtY/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" width="800" height="480" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <p>presentazione in fase di update</p>
 
 <h4 id="members">MEMBERS:</h4>
-<p>Luca Paschetta, Marco Delmastro, Daniele Lo Rillo, Alessandro Zeppegno, Christian Nkomp Temangou</p>
+<p>Barbero Giada, Quartero Roberto, Quatrale Andrea, Sacchetto Dario, Spano Costantino.</p>
 
-<h4 id="object">OBJECT:</h4>
-<p>Create a system that checks the status of the fixtures and monitoring the temperature/humidity of your home, through interaction with a Bot Telegram.</p>
+<h4 id="problemi">Problemi:</h4>
+<ul>
+  <li>Riportare su carta le comande della ordinazioni.</li>
+  <li>Ordinazioni possibili solo fino alle 11:30.</li>
+  <li>Perdita di tempo per rispondere ai clienti quando manca qualche informazione.</li>
+</ul>
 
-<h4 id="abstract">ABSTRACT:</h4>
-<p>We want to allow anyone to know the dynamics that happens in their own home.
-We thought to use a MKR1000 connected to the home WiFi, which interacts with the users through a bot telegram.
-The main functions we have decided to implement are the temperature and humidity monitoring in your home and control the opening and closing windows.</p>
+<h4 id="soluzioni">Soluzioni:</h4>
+<ul>
+  <li>Stampa automatica delle comande.</li>
+  <li>Ordinazioni no-stop.</li>
+  <li>Bot che gestisce il processo di ordinazione.</li>
+</ul>
 
-<h4 id="the-idea">THE IDEA:</h4>
-<p>We thought it would be useful to know by a simple Telegram Bot  the state of the home. Because in addition to being a convenient and effective tool, it can also increases the safety of the house and of ourselves, because we can be aware, when you are out  if there are open windows “or if perhaps we have forgotten the gas on.”</p>
+<h4 id="obiettivi">Obiettivi:</h4>
+<ul>
+  <li>Collegare una stampante termica alla MKR1000 che stampi automaticamente le comande delle ordinazioni prese tramite bot.</li>
+  <li>Creazione bot per ordinazioni no-stop e automatiche, attivo negli orari di apertura del negozio fisico.</li>
+</ul>
 
-<h4 id="what-we-used">WHAT WE USED:</h4>
-<p>1x MKR1000
-1x DHT22 (temperature / humidity sensor)
-1x buttons
-x2 Resistance (10k)
-x1 LCD Hitachi</p>
+<h4 id="materiale">Materiale:</h4>
+<ul>
+  <li>Mini Thermal Receipt Printer</li>
+  <li>MKR1000</li>
+  <li>Alimentatore 5 volt</li>
+  <li>Connettori vari</li>
+  <li>Breadbord</li>
+  <li>1x led</li>
+  <li>Case originale tagliato a laser</li>
+</ul>
 
-<h4 id="bot">BOT</h4>
-<p>The Bot was developed on Telegram with @BotFather.
-Its main functions are two:
-Communicate user request the actual temperature of the house.
-Notify the opening or closing of windows.
-The Bot is connected to MKR1000 through the implementation of the Telegram library for Arduino, that allows you to receive requests, process them, and send data to the Bot.</p>
+<h3 id="lidea">L’IDEA</h3>
 
-<h4 id="temperaturehumidity">TEMPERATURE/HUMIDITY</h4>
-<p>To monitor the temperature we decided to notify only on user request via BOT Telegram.
-This way you can know at any time the temperature in your home.</p>
+<h4 id="abstract">Abstract</h4>
 
-<h4 id="windows">WINDOWS</h4>
-<p>For the window control we thought of using a magnetic sensor placed on the two windows ashes.
-In this way it will be possible to know the time when the two sensors are in contact or not, and the opening and closing of the window.</p>
+<p><em>“Le ordinazioni vi fanno perdere tempo? Manca sempre qualcosa?
+  Il bot delle ordinazioni é quello che fa per voi! “
+  Un modo semplice e veloce per gestire le comande e far gustare un ottimo
+ panino ai vostri clienti.”</em></p>
 
-<h4 id="work-process">WORK PROCESS</h4>
-<p>We started from the hardware part, we have putted on the breadboard the window-button, and the DHT22 (Humidity/Temperature sensor). We have tried only with the Arduino software if they both functioned.
-After that we create the Telegram Bot, with Bot Father, we putted in 2 buttons: Humididty and Temperature.
-Then we have connected the Arduino Code with the Bot, using the Telegram library for Arduino. We maked a cicle that controls if there are request from the user, when he note a request it responds with the actual temperature. For the window-button instead we decide to notify everytime the button is pushed, so everytime the window is opened or closed.</p>
+<h4 id="progetto">Progetto</h4>
 
-<h4 id="design">DESIGN</h4>
-<p>We decided to make a box for our system, made with wood and cutted by a laser cut machine.
-We also thought that sometimes the users want to see his system or change something in it, so we have putted a top cover that you can open.</p>
+<p>L’idea di progetto consiste nel creare un bot Telegram che permetta a Marco di gestire automaticamente le ordinazione, senza doversi mettere a riscrivere ogni messaggio e sopratutto senza interrompere il servizio dopo una certa ora.
+Il bot interagirà con una scheda Arduino MKR1000 che a sua volta sarà collegata ad una piccola stampante termica, in grado di stampare la comanda dell’ordinazione ogni volta che qualcuno confermerà l’ordine su Telegram.
+La stampante verrà inserita all’interno di una scatola tagliata a laser, unica e personalizzabile con le informazioni principali del locale, nonché il logo del Pan.da’s, creando un vero e proprio oggetto d’arredo. In aggiunta, verrà montato un led che permetterà a Marco,  di capire quando sta arrivando un nuovo ordine.</p>
 
-<h4 id="why-our-project-is-important">WHY OUR PROJECT IS IMPORTANT?</h4>
-<p>Our project is very important, just because having used a MKR1000 can transmit data not only on the PC screen, but it can notify you everytime and anywhere you are, as long as there is an active internet connection.</p>
+<h4 id="mvp-minimum-viable-product">MVP (Minimum Viable Product)</h4>
+
+<p>Il nostro MVP è un bot Telegram che gestisce l’ordinazione di un panino e la stampi attraverso la stampante termica, con un’identazione corretta.
+La stampante è inserita in una scatola di compensato da 4mm tagliata a laser con testata richiamante il logo e un piccolo led verde di notifica arrivo nuovo ordine.</p>
 
   </article>
 
